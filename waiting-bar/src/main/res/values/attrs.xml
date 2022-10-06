@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaitingBar">
+        <attr name="indicator" format="enum">
+            <enum name="progressBar" value="0" />
+            <enum name="ballWave" value="1" />
+            <enum name="lineWave" value="2" />
+            <enum name="circleWave" value="3" />
+        </attr>
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+</resources>
